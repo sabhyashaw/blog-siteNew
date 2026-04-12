@@ -9,7 +9,7 @@ body{
     background-color: #ffffff;
 }
 .container{
-    max-width: 95vw;
+    max-width: 90vw;
     padding: 2rem 1rem;
     margin: 0 auto;
 }
@@ -36,7 +36,7 @@ a{
 {
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: repeat(4, fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 .card-container
 {
@@ -80,40 +80,53 @@ a{
     color: rgb(85, 85, 85);
     font-size: 1rem;
 }
-.card-footer-container{
+.card-footer-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;  
     padding: 1.5rem;
+    gap: 1rem;  
+    border-top: 1px solid rgb(220, 220, 220); 
 }
-.aurthor-container{
+
+.aurthor-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    flex: 1;  
 }
-.aurthor-avatar-container{
+
+.aurthor-avatar-container {
     height: 2.5rem;
     width: 2.5rem;
     border: 1px solid rgb(187, 187, 187);
     border-radius: 50%;
     overflow: hidden;
     background-color: rgb(235, 232, 232);
+    flex-shrink: 0;  
 }
-.aurthor-info-container{
+
+.aurthor-info-container {
     display: flex;
     flex-direction: column;
+    flex: 1;  
 }
+
+.card-tag-container {
+    border: 1px solid rgb(88, 84, 84);
+    border-radius: 4px;  
+    padding: 0.4rem 0.8rem;  
+    font-size: 0.85rem;  
+    line-height: 1.2rem;
+    color: rgb(120, 120, 120);
+    white-space: nowrap;  
+    flex-shrink: 0;  
+}
+
 .aurthor-name{
     color: blue;
 }
 .aurthor-date{
     color: gray;
-}
-.card-tag-container{
-    border: 1px solid rgb(88, 84, 84);
-    border-radius: 2px;
-    padding:0.2rem 0.2rem ;
-    font-size: 1rem;
-    line-height: 1.2rem;
-    color: rgb(120, 120, 120);
 }

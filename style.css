@@ -11,5 +11,8 @@ body{
     max-width: 95vw;
     padding: 2rem 1rem;
     margin: 0 auto;
-    background-color: #e3499f;
+    /* background-color: #e3499f; */
+}
+a{
+    text-decoration: none;
 }

@@ -130,3 +130,9 @@ a{
 .aurthor-date{
     color: gray;
 }
+@media (max-width : 480px){
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+}

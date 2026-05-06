@@ -130,7 +130,7 @@ a{
 .aurthor-date{
     color: gray;
 }
-@media (max-width : 480px){
+@media (max-width : 680px){
     .main-container{
         display: flex;
         flex-direction: column;
